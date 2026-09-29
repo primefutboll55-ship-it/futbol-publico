@@ -1,9 +1,11 @@
-FÚTBOL PÚBLICO
-Web estática para indexar partidos completos desde fuentes oficiales.
+VERSIÓN CORREGIDA
 
-La web NO descarga ni aloja retransmisiones protegidas. Los enlaces dirigen a
-Football Archive/FIFA y, desde allí, a la fuente oficial del vídeo.
+Esta versión contiene enlaces específicos a partidos completos verificados.
+Tres partidos de AC Milan tienen reproductor YouTube integrado:
+- Inter 1-2 AC Milan (22/09/2024)
+- Inter 2-3 AC Milan (06/01/2025)
+- AC Milan 1-1 Inter (02/04/2025)
 
-Fuentes:
-https://footballarchive.org/stats/full-matches/
-https://www.fifa.com/es/archive
+Otros partidos se abren en sus páginas oficiales de Arsenal.
+
+No se alojan copias de retransmisiones protegidas.

@@ -1,9 +1,17 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Fútbol Público</title><link rel="stylesheet" href="styles.css"></head><body>
-<header><a class="logo">⚽ FÚTBOL<span>PÚBLICO</span></a><nav><a href="#partidos">Partidos</a><a href="#fuentes">Fuentes</a><button id="fav">♥ <b>0</b></button></nav></header>
-<section class="hero"><div class="copy"><small>ARCHIVO DE FÚTBOL · PARTIDOS COMPLETOS</small><h1>El fútbol<br><i>para volver a verlo.</i></h1><p>Partidos completos y archivos históricos enlazados desde fuentes oficiales y autorizadas.</p><div class="search">⌕<input id="q" placeholder="Buscar equipo, competición o año..."></div></div></section>
-<main><div class="notice"><b>⚖️ DERECHOS</b> Esta web no aloja copias de retransmisiones. Los enlaces llevan a la fuente que publica o autoriza el vídeo. Que un vídeo sea gratis no significa automáticamente que sea de dominio público.</div>
-<section id="partidos"><div class="head"><div><small>CATÁLOGO</small><h2>Partidos completos</h2></div><div id="filters"><button class="active" data-f="all">Todos</button><button data-f="AC Milan">AC Milan</button><button data-f="Premier League">Premier League</button><button data-f="Champions">Champions</button></div></div><div id="grid"></div></section>
-<section class="banner"><div><small>ARCHIVO OFICIAL</small><h2>FIFA+</h2><p>FIFA mantiene un archivo audiovisual con repeticiones completas y partidos clásicos.</p></div><a href="https://www.fifa.com/es/archive" target="_blank">Explorar FIFA →</a></section>
-<section id="fuentes"><small>FUENTES</small><h2>Partidos desde fuentes oficiales</h2><div class="sources"><a href="https://footballarchive.org/stats/full-matches/" target="_blank"><b>Football Archive</b><span>Índice de unos 600 partidos con vídeo completo y enlaces oficiales.</span></a><a href="https://www.fifa.com/es/archive" target="_blank"><b>FIFA Archive</b><span>Full Match Replay y partidos clásicos.</span></a></div></section></main>
-<footer>© 2026 Fútbol Público · No alojamos retransmisiones de terceros.</footer>
-<div id="modal"><div class="modal"><button id="x">×</button><div class="ball">⚽</div><div class="mi"><small id="mc"></small><h2 id="mt"></h2><strong id="ms"></strong><p id="md"></p><a id="src" target="_blank">Abrir fuente / vídeo ▶</a></div></div></div><script src="app.js"></script></body></html>
+<!doctype html>
+<html lang="es">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fútbol Público — Partidos completos</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<header><a class="logo">⚽ FÚTBOL<span>PÚBLICO</span></a><nav><a href="#partidos">Partidos</a><a href="#fuentes">Fuentes</a></nav></header>
+<section class="hero"><div class="copy"><small>PARTIDOS COMPLETOS · FUENTES OFICIALES</small>
+<h1>El fútbol<br><i>para volver a verlo.</i></h1>
+<p>Partidos completos disponibles desde reproductores o páginas oficiales. Esta web no descarga ni almacena las retransmisiones.</p>
+<div class="search">⌕ <input id="q" placeholder="Buscar equipo o competición..."></div></div></section>
+<main><div class="notice"><b>⚖️ DERECHOS</b> Los vídeos se reproducen desde YouTube o desde las páginas oficiales de los clubes. No alojamos copias de retransmisiones protegidas.</div>
+<section id="partidos"><div class="head"><div><small>CATÁLOGO</small><h2>Partidos completos</h2></div><div id="filters"><button class="active" data-f="all">Todos</button><button data-f="AC Milan">AC Milan</button><button data-f="Arsenal">Arsenal</button><button data-f="Serie A">Serie A</button><button data-f="Premier League">Premier League</button></div></div>
+<div id="grid"></div></section>
+<section id="player"><div class="player-head"><small>REPRODUCTOR</small><h2 id="ptitle">Seleccioná un partido</h2></div><div class="video-wrap" id="video"></div><p id="pnote">Los partidos disponibles en YouTube se reproducen aquí. Los que utilizan un reproductor oficial se abren mediante el botón de la ficha.</p></section>
+<section id="fuentes"><small>FUENTES VERIFICADAS</small><h2>Partidos completos reales</h2><div class="sources"><a href="https://footballarchive.org/stats/full-matches/" target="_blank">Football Archive — índice de partidos completos →</a><a href="https://www.fifa.com/es/archive" target="_blank">FIFA Archive — archivo oficial →</a></div></section>
+</main><footer>© 2026 Fútbol Público · Vídeos servidos por sus fuentes originales.</footer>
+<script src="app.js"></script></body></html>
