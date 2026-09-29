@@ -1,11 +1,16 @@
-VERSIÓN CORREGIDA
+FÚTBOL PÚBLICO — versión ampliada
 
-Esta versión contiene enlaces específicos a partidos completos verificados.
-Tres partidos de AC Milan tienen reproductor YouTube integrado:
-- Inter 1-2 AC Milan (22/09/2024)
-- Inter 2-3 AC Milan (06/01/2025)
-- AC Milan 1-1 Inter (02/04/2025)
+Contenido:
+- Material histórico verificado como dominio público/PD Mark.
+- Colección oficial FIFA+ del Mundial 1974.
+- Archivo del FC Barcelona para la etapa de Guardiola.
+- Algunos partidos modernos con enlaces a fuentes oficiales.
 
-Otros partidos se abren en sus páginas oficiales de Arsenal.
+IMPORTANTE:
+No se alojan copias de partidos modernos protegidos por copyright.
+“Gratis para ver” no significa “dominio público”.
 
-No se alojan copias de retransmisiones protegidas.
+Archivos:
+index.html
+styles.css
+app.js

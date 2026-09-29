@@ -1,17 +1,122 @@
 <!doctype html>
 <html lang="es">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Fútbol Público — Partidos completos</title><link rel="stylesheet" href="styles.css"></head>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fútbol Público</title>
+<link rel="stylesheet" href="styles.css">
+</head>
 <body>
-<header><a class="logo">⚽ FÚTBOL<span>PÚBLICO</span></a><nav><a href="#partidos">Partidos</a><a href="#fuentes">Fuentes</a></nav></header>
-<section class="hero"><div class="copy"><small>PARTIDOS COMPLETOS · FUENTES OFICIALES</small>
-<h1>El fútbol<br><i>para volver a verlo.</i></h1>
-<p>Partidos completos disponibles desde reproductores o páginas oficiales. Esta web no descarga ni almacena las retransmisiones.</p>
-<div class="search">⌕ <input id="q" placeholder="Buscar equipo o competición..."></div></div></section>
-<main><div class="notice"><b>⚖️ DERECHOS</b> Los vídeos se reproducen desde YouTube o desde las páginas oficiales de los clubes. No alojamos copias de retransmisiones protegidas.</div>
-<section id="partidos"><div class="head"><div><small>CATÁLOGO</small><h2>Partidos completos</h2></div><div id="filters"><button class="active" data-f="all">Todos</button><button data-f="AC Milan">AC Milan</button><button data-f="Arsenal">Arsenal</button><button data-f="Serie A">Serie A</button><button data-f="Premier League">Premier League</button></div></div>
-<div id="grid"></div></section>
-<section id="player"><div class="player-head"><small>REPRODUCTOR</small><h2 id="ptitle">Seleccioná un partido</h2></div><div class="video-wrap" id="video"></div><p id="pnote">Los partidos disponibles en YouTube se reproducen aquí. Los que utilizan un reproductor oficial se abren mediante el botón de la ficha.</p></section>
-<section id="fuentes"><small>FUENTES VERIFICADAS</small><h2>Partidos completos reales</h2><div class="sources"><a href="https://footballarchive.org/stats/full-matches/" target="_blank">Football Archive — índice de partidos completos →</a><a href="https://www.fifa.com/es/archive" target="_blank">FIFA Archive — archivo oficial →</a></div></section>
-</main><footer>© 2026 Fútbol Público · Vídeos servidos por sus fuentes originales.</footer>
-<script src="app.js"></script></body></html>
+<header class="topbar">
+  <div class="brand">FÚTBOL<span>PÚBLICO</span></div>
+  <nav class="topnav"><a href="#inicio">Inicio</a><a href="#publico">Explorar</a><a href="#mundial74">Mundial 1974</a><a href="#guardiola">Guardiola</a></nav>
+  <button class="profile">⚽</button>
+</header>
+
+
+
+<main>
+<section class="hero" id="inicio">
+  <div class="hero-content">
+    <div class="hero-kicker">⚽ FÚTBOL HISTÓRICO</div>
+    <h1>El fútbol que<br><strong>querés volver a ver.</strong></h1>
+    <p>Partidos históricos, Mundiales y grandes equipos, organizados como una biblioteca de streaming.</p>
+    <div class="hero-buttons"><a class="hero-btn" href="#publico">▶ Explorar</a><a class="hero-btn ghost" href="#mundial74">ⓘ Más información</a></div>
+    <input id="search" type="search" placeholder="🔎  Buscar partidos, equipos, torneos...">
+  </div>
+</section>
+
+<section id="publico" class="catalog"><div class="section-title"><h2>🟢 Dominio público</h2><span>Disponible para explorar</span></div>
+<h2>🟢 Dominio público / reutilizable</h2>
+<p class="note">Estos materiales fueron verificados en Wikimedia Commons como dominio público o con una dedicación equivalente. La disponibilidad y el alcance de la licencia pueden depender de la jurisdicción.</p>
+<div class="grid">
+  <article class="card" data-search="princeton yale 1903 football futbol americano dominio publico">
+    <div class="tag green">DOMINIO PÚBLICO</div>
+    <h3>Princeton vs Yale — 1903</h3>
+    <p>Filmación histórica del partido en New Haven. Duración aproximada: 3 min 44 s. Fuente: Library of Congress / Wikimedia Commons.</p>
+    <a class="btn" target="_blank" rel="noopener" href="https://commons.wikimedia.org/wiki/File:Princeton_and_Yale_football_game_(1903).webm">▶ Ver archivo</a>
+  </article>
+  <article class="card" data-search="glentoran 1897 soccer futbol dominio publico">
+    <div class="tag green">DOMINIO PÚBLICO*</div>
+    <h3>Glentoran — 1897</h3>
+    <p>Una de las primeras filmaciones conocidas de un partido de fútbol asociación. El archivo disponible es un fragmento de 43 segundos, no el partido completo.</p>
+    <a class="btn" target="_blank" rel="noopener" href="https://commons.wikimedia.org/wiki/File:The_world%E2%80%99s_first_filmed_soccer_match_with_corrected_speed-_Glentoran....webm">▶ Ver archivo</a>
+  </article>
+</div>
+<p class="small">*Wikimedia Commons marca esta pieza como Public Domain Mark, pero señala incertidumbre histórica sobre el autor. Por eso la mostramos separada de las obras con una base de dominio público más clara.</p>
+</section>
+
+<section id="mundial74" class="catalog"><div class="section-title"><h2>🏆 Mundial 1974</h2><span>Fuente oficial FIFA+</span></div>
+<h2>🏆 Mundial de 1974 — partidos completos</h2>
+<div class="feature">
+  <div>
+    <div class="tag gold">FUENTE OFICIAL FIFA+</div>
+    <h3>Todos los partidos completos disponibles del Mundial 1974</h3>
+    <p>FIFA+ ofrece repeticiones completas de los partidos del Mundial de Alemania Federal 1974, incluyendo Países Bajos–Alemania Federal, Brasil–Polonia, Uruguay–Países Bajos y otros encuentros.</p>
+    <a class="btn goldbtn" target="_blank" rel="noopener" href="https://www.plus.fifa.com/en/showcase/1974-fifa-world-cup-germany/127178cc-1b1a-4ef3-bffe-d0a9cc61fb74">🏆 Abrir colección FIFA+</a>
+  </div>
+</div>
+<p class="note">Estos videos son oficiales y gratuitos en FIFA+, pero esta página no los presenta como dominio público ni los descarga/realoja.</p>
+</section>
+
+<section id="guardiola" class="catalog"><div class="section-title"><h2>🔵 La era Guardiola</h2><span>Barcelona 2008–2012</span></div>
+<h2>🔵 FC Barcelona de Guardiola</h2>
+<div class="feature">
+  <div>
+    <div class="tag blue">ARCHIVO / FUENTE OFICIAL</div>
+    <h3>Barcelona 2008–2012</h3>
+    <p>Los partidos completos de la etapa de Guardiola no se clasifican aquí como dominio público. Esta sección sirve para acceder a fuentes legales cuando exista material disponible.</p>
+    <a class="btn bluebtn" target="_blank" rel="noopener" href="https://www.fcbarcelona.es/es/barca-de-guardiola">🔵 Archivo del Barça</a>
+    <a class="btn secondary" target="_blank" rel="noopener" href="https://footballia.net/players/josep-pep-guardiola-sala">📺 Archivo Footballia</a>
+  </div>
+</div>
+</section>
+
+<section id="oficiales" class="catalog"><div class="section-title"><h2>📺 Partidos oficiales</h2><span>Ver en la fuente correspondiente</span></div>
+<h2>📺 Partidos completos en fuentes oficiales</h2>
+<p class="note">No son dominio público. Son enlaces a fuentes oficiales o a páginas que identifican una fuente oficial.</p>
+<div class="grid">
+  <article class="card" data-search="inter ac milan 2024 serie a">
+    <div class="tag red">FUENTE OFICIAL</div><h3>Inter 1–2 AC Milan — 2024</h3>
+    <p>Serie A, 22 septiembre 2024.</p>
+    <a class="btn" target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=oVf3ommWcIs">▶ Ver partido</a>
+  </article>
+  <article class="card" data-search="inter ac milan 2025 supercoppa">
+    <div class="tag red">FUENTE OFICIAL</div><h3>Inter 2–3 AC Milan — 2025</h3>
+    <p>Supercoppa Italiana, 6 enero 2025.</p>
+    <a class="btn" target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=0tppLP0cXhU">▶ Ver partido</a>
+  </article>
+  <article class="card" data-search="ac milan inter 2025 coppa italia">
+    <div class="tag red">FUENTE OFICIAL</div><h3>AC Milan 1–1 Inter — 2025</h3>
+    <p>Coppa Italia, 2 abril 2025.</p>
+    <a class="btn" target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=XkLpopwAusI">▶ Ver partido</a>
+  </article>
+  <article class="card" data-search="arsenal manchester city 2026 community shield">
+    <div class="tag red">FUENTE OFICIAL</div><h3>Arsenal 3–0 Manchester City — 2026</h3>
+    <p>Community Shield, 16 agosto 2026.</p>
+    <a class="btn" target="_blank" rel="noopener" href="https://www.arsenal.com/video/full-match-arsenal-v-manchester-city-aPpCC0e90EDe">▶ Arsenal</a>
+  </article>
+  <article class="card" data-search="arsenal chelsea 2026 premier league">
+    <div class="tag red">FUENTE OFICIAL</div><h3>Arsenal 2–1 Chelsea — 2026</h3>
+    <p>Premier League, 6 septiembre 2026.</p>
+    <a class="btn" target="_blank" rel="noopener" href="https://www.arsenal.com/video/full-match-arsenal-v-chelsea-aI3QG7b6qhg7">▶ Arsenal</a>
+  </article>
+  <article class="card" data-search="ipswich arsenal 2026 efl cup">
+    <div class="tag red">FUENTE OFICIAL</div><h3>Ipswich Town 2–4 Arsenal — 2026</h3>
+    <p>EFL Cup, 15 septiembre 2026.</p>
+    <a class="btn" target="_blank" rel="noopener" href="https://www.arsenal.com/video/full-match-ipswich-town-v-arsenal-aNaVC1K2gcbH">▶ Arsenal</a>
+  </article>
+</div>
+</section>
+
+<section class="legal">
+<h2>📌 Sobre los derechos</h2>
+<p>“Disponible gratis” no equivale a “dominio público”. Los partidos modernos de clubes, Mundiales y ligas normalmente tienen derechos audiovisuales. Por eso esta web no aloja ni redistribuye esas copias: enlaza a las fuentes oficiales.</p>
+<p>El material marcado como dominio público se identificó mediante la información de licencia de la fuente. Antes de reutilizar comercialmente una obra, conviene revisar la licencia y las reglas de la jurisdicción donde se publicará.</p>
+</section>
+</main>
+
+<footer>Fútbol Público · Archivo legal de fuentes históricas y oficiales</footer>
+<script src="app.js"></script>
+</body>
+</html>
